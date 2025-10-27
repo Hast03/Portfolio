@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+package-lock.json
+# optional lockfiles (uncomment if you use other package managers)
+# pnpm-lock.yaml
+# yarn.lock
+
+# Vite / build output
+dist/
+build/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs / coverage
+logs/
+*.log
+coverage/
+
+# Tooling / caches
+.vite/
+.cache/
+.eslintcache
+/.turbo/
+.swc/
+
+# Optional: local assets or generated files
+public/*.log
+public/*.local
